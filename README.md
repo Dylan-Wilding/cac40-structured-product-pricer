@@ -14,11 +14,11 @@ This script is an authentic, hand-coded academic project completed as part of my
 
 The product guarantees the initial capital at maturity, plus the maximum of the following three scenarios:
 
-| Scenario | Condition | Payout |
-|---|---|---|
-| **Vanilla Participation** | Standard index performance | 50% of the CAC 40 growth |
-| **Digital Step 1** | CAC 40 touches 120% of its initial value at least once | 10% minimum |
-| **Digital Step 2** | CAC 40 touches 150% of its initial value at least once | 25% minimum |
+| Condition | Payout |
+|---|---|
+| Standard index performance | 50% of the CAC 40 growth |
+| CAC 40 touches 120% of its initial value at least once | 10% minimum |
+| CAC 40 touches 150% of its initial value at least once | 25% minimum |
 
 *(Insert Payoff Graph Here: `![Payoff Graph](link-to-image.png)`)*
 
@@ -75,17 +75,17 @@ Projet académique axé sur la valorisation d'un produit structuré garanti en c
 
 Ce script est un projet académique authentique et codé à la main, réalisé dans le cadre de mon Master of Science FMI (Financial Markets & Investments) à SKEMA Business School.
 
-**Il a été délibérément écrit sans l'assistance de LLMs.** Les variables, la structure et les commentaires restent dans leur version française d'origine. C'est intentionnel : cela sert de démonstration de mon processus de réflexion (alors que je débute mon parcours en programmation appliquée à la finance), de ma compréhension des mathématiques financières, et de ma capacité à traduire la théorie du pricing de produits structurés en code Python fonctionnel.
+**Il a été délibérément écrit sans l'assistance de Grands Modèles de Langage (LLMs).** Les variables, la structure et les commentaires restent dans leur version française d'origine. C'est intentionnel : cela sert de démonstration de mon processus de réflexion (alors que je débute mon parcours en programmation appliquée à la finance), de ma compréhension des mathématiques financières, et de ma capacité à traduire la théorie du pricing de produits structurés en code Python fonctionnel.
 
 ## Structure du Produit (Payoff)
 
 Le produit garantit l'intégralité du capital initial à maturité, auquel s'ajoute le maximum entre les trois scénarios de remboursement suivants :
 
-| Scénario | Condition de déclenchement | Payout de Performance |
-|---|---|---|
-| **Participation Vanille** | Croissance classique de l'indice | 50% de la hausse du CAC 40 |
-| **Digitale Palier 1** | Le CAC 40 touche 120% de sa valeur initiale au moins une fois | 10% minimum |
-| **Digitale Palier 2** | Le CAC 40 touche 150% de sa valeur initiale au moins une fois | 25% minimum |
+| Condition de déclenchement | Payout de Performance |
+|---|---|
+| Croissance classique de l'indice | 50% de la hausse du CAC 40 |
+| Le CAC 40 touche 120% de sa valeur initiale au moins une fois | 10% minimum |
+| Le CAC 40 touche 150% de sa valeur initiale au moins une fois | 25% minimum |
 
 *(Insérer Graphique de Payoff Ici: `![Payoff Graph](link-to-image.png)`)*
 
