@@ -8,7 +8,7 @@ Academic project focused on pricing a path-dependent, capital-guaranteed structu
 
 This script is an authentic, hand-coded academic project completed as part of my MSc FMI at SKEMA Business School. 
 
-**It was deliberately written without the assistance of Large Language Models (LLMs).** The variables, logic flow, and embedded comments remain in their original French. This imperfection is intentional: it serves as an honest demonstration of my raw coding thought process, practical understanding of financial mathematics, and ability to independently translate complex derivative pricing theory into functional Python code.
+**It was deliberately written without the assistance of Large Language Models (LLMs).** The variables, structure, and comments remain in their original French. This is intentional: it serves as a demonstration of my coding thought process (as I start my coding journey), my understanding of financial mathematics, and my ability to translate complex derivative pricing theory into functional Python code.
 
 ## Payoff Structure
 
@@ -36,7 +36,7 @@ Given market parameters and historical data, the script:
     *   Call Vanilla (50% participation, Strike 150%)
     *   Call One-Touch Knock-Out (KO 120%, payout 10%)
     *   Call One-Touch Knock-Out (KO 150%, payout 15%)
-*   **Analyzes sensitivities (Greeks & Scenarios)** by stress-testing the structuring margin against interest rate drops, duration extensions, dividend yield spikes, and volatility shocks.
+*   **Analyzes sensitivities (through scenarios)** by stress-testing the structuring margin against interest rate drops, duration extensions, dividend yield spikes, and volatility shocks.
 *   **Proves convergence** by demonstrating the numerical convergence of the Monte Carlo simulated Vanilla Call price toward the theoretical Black-Scholes analytical price as $M \to \infty$.
 *   **Reprises for secondary market** by adjusting parameters to simulate an early buyback, incorporating the bank's bid-ask spreads on rates (+4 bps) and implied volatility (+2%).
 
@@ -76,7 +76,7 @@ Projet académique axé sur la valorisation d'un produit structuré garanti en c
 
 Ce script est un projet académique authentique et codé à la main, réalisé dans le cadre de mon Master of Science FMI (Financial Markets & Investments) à SKEMA Business School.
 
-**Il a été délibérément écrit dans son intégralité sans l'assistance de Grands Modèles de Langage (LLMs).** Les variables, la logique de développement et les commentaires intégrés restent dans leur version française d'origine. Cette "imperfection" est intentionnelle : elle se veut être une démonstration honnête de mon processus brut de réflexion algorithmique, de ma compréhension pratique des mathématiques financières, et de ma capacité à traduire de manière autonome la théorie complexe du "pricing" en code Python fonctionnel.
+**Il a été délibérément écrit sans l'assistance de Grands Modèles de Langage (LLMs).** Les variables, la structure et les commentaires restent dans leur version française d'origine. C'est intentionnel : cela sert de démonstration de mon processus de réflexion (alors que je débute mon parcours en programmation), de ma compréhension des mathématiques financières, et de ma capacité à traduire la théorie complexe du pricing de dérivées en code Python fonctionnel.
 
 ## Structure du Produit (Payoff)
 
@@ -102,7 +102,7 @@ Le produit garantit l'intégralité du capital initial à maturité, auquel s'aj
     *   Call Knock-Outs
     *   Calls Digitalisés "One-Touch"
     *   Call Vanille Européen
-*   **Analyse les sensibilités (Grecques)** via des tests de choc sur la marge de structuration en réponse à des baisses de rentabilité, extensions de maturité, chocs de dividendes ou stress de volatilité.
+*   **Analyse les sensibilités (via des scénarios)** par des stress-tests sur la marge de structuration face aux baisses de taux, aux extensions de maturité, aux pics de dividendes et aux chocs de volatilité.
 *   **Prouve la convergence** par des incréments exponentiels démontrant la convergence parfaite du prix Monte-Carlo du Call Vanille vers son exact prix théorique analytique via Black-Scholes ($M \to \infty$).
 *   **Reprice sur le marché secondaire** en simulant un rachat potentiel par la banque à 1 an, incluant la formule du Prix Forward du CAC 40 ainsi que l'application d'un *Bid-Ask spread* défensif sur les points de la courbe (+4 bps) et sur le *Sourire de Volatilité* (+2%).
 
