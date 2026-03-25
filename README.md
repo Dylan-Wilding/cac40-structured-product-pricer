@@ -1,3 +1,5 @@
+# ReadMe file is in both English [EN], and French [FR] below. 
+
 # 🌍 [EN] Structured Product Pricing via Monte Carlo
 
 Academic project focused on pricing a path-dependent, capital-guaranteed structured product linked to the CAC 40 index. The model relies on Monte Carlo simulations (Geometric Brownian Motion) to estimate the product's value, decompose its exotic options, and analyze its sensitivities.
