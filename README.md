@@ -1,6 +1,6 @@
 # ReadMe file is in both English [EN], and French [FR] below. 
 
-# 🌍 [EN] Structured Product Pricing via Monte Carlo
+# [EN] Structured Product Pricing via Monte Carlo
 
 Academic project focused on pricing a path-dependent, capital-guaranteed structured product linked to the CAC 40 index. The model relies on Monte Carlo simulations (Geometric Brownian Motion) to estimate the product's value, decompose its exotic options, and analyze its sensitivities.
 
@@ -63,12 +63,11 @@ pip install numpy pandas yfinance matplotlib scipy
 
 ## License
 
-© 2026 Dylan WILDING. All rights reserved.
-This project is open-sourced under the MIT License.
+© 2026 Dylan WILDING. 
 
 ---
 
-# 🇫🇷 [FR] Valorisation d'un Produit Structuré par Monte-Carlo
+# [FR] Valorisation d'un Produit Structuré par Monte-Carlo
 
 Projet académique axé sur la valorisation d'un produit structuré garanti en capital, dépendant de la trajectoire du sous-jacent (CAC 40). Le modèle s'appuie sur des simulations de Monte-Carlo (Mouvement Brownien Géométrique) pour estimer la valeur du produit, décomposer ses options exotiques et analyser ses sensibilités de marge pour le banquier structurateur.
 
@@ -76,7 +75,7 @@ Projet académique axé sur la valorisation d'un produit structuré garanti en c
 
 Ce script est un projet académique authentique et codé à la main, réalisé dans le cadre de mon Master of Science FMI (Financial Markets & Investments) à SKEMA Business School.
 
-**Il a été délibérément écrit sans l'assistance de Grands Modèles de Langage (LLMs).** Les variables, la structure et les commentaires restent dans leur version française d'origine. C'est intentionnel : cela sert de démonstration de mon processus de réflexion (alors que je débute mon parcours en programmation), de ma compréhension des mathématiques financières, et de ma capacité à traduire la théorie complexe du pricing de dérivées en code Python fonctionnel.
+**Il a été délibérément écrit sans l'assistance de LLMs.** Les variables, la structure et les commentaires restent dans leur version française d'origine. C'est intentionnel : cela sert de démonstration de mon processus de réflexion (alors que je débute mon parcours en programmation appliquée à la finance), de ma compréhension des mathématiques financières, et de ma capacité à traduire la théorie du pricing de produits structurés en code Python fonctionnel.
 
 ## Structure du Produit (Payoff)
 
@@ -129,5 +128,4 @@ pip install numpy pandas yfinance matplotlib scipy
 
 ## Licence
 
-© 2026 Dylan WILDING. Tous droits réservés.
-Ce projet est open-source sous la licence MIT.
+© 2026 Dylan WILDING.
