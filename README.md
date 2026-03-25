@@ -2,7 +2,7 @@
 
 # [EN] Structured Product Pricing via Monte Carlo
 
-Academic project focused on pricing a path-dependent, capital-guaranteed structured product linked to the CAC 40 index. The model relies on Monte Carlo simulations (Geometric Brownian Motion) to estimate the product's value, decompose its exotic options, and analyze its sensitivities.
+Academic project focused on pricing a path-dependent, capital-guaranteed structured product linked to the CAC 40 index. The model relies on Monte Carlo simulations to estimate the product's value, decompose its exotic options, and analyze its sensitivities.
 
 ## ⚠️ Context of the exercise
 
@@ -69,7 +69,7 @@ pip install numpy pandas yfinance matplotlib scipy
 
 # [FR] Valorisation d'un Produit Structuré par Monte-Carlo
 
-Projet académique axé sur la valorisation d'un produit structuré garanti en capital, dépendant de la trajectoire du sous-jacent (CAC 40). Le modèle s'appuie sur des simulations de Monte-Carlo (Mouvement Brownien Géométrique) pour estimer la valeur du produit, décomposer ses options exotiques et analyser ses sensibilités de marge pour le banquier structurateur.
+Projet académique axé sur la valorisation d'un produit structuré garanti en capital, dépendant de la trajectoire du sous-jacent (CAC 40). Le modèle s'appuie sur des simulations de Monte-Carlo pour estimer la valeur du produit, décomposer ses options exotiques et analyser ses sensibilités de marge pour le banquier structurateur.
 
 ## ⚠️ Contexte de cet exercice
 
